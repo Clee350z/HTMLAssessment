@@ -1,0 +1,17 @@
+td, th {
+  border: 2px solid black;
+
+}
+p1:hover{
+  background-color: green;
+}
+
+mark{
+  background-color: black;
+  color: red;
+}
+
+broncosBackground{
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+  
+}
