@@ -73,9 +73,37 @@
             </li>
           </ul>
         </div>
-          <div id = "form">
-            <INPUT = "Radio" Name = atom
-          </div>
+
+            <div id = "forms">
+              <h3>Forms</h3>
+              <label> First Name<input type ="text" name = "firstName"></input>
+              <label> Last Name<input type ="text" name = "lastName"></input>
+              <label for ="sports"> Favorite Sport?:<label>
+                <select id="sports" name="sports">
+                  <option value = "soccer">Soccer</option>
+                  <option value = "football">Football</option>
+                  <br>
+                  <option value = "basketball">Basketball</option>
+                </select>
+                <br>
+                <label for ="experience"> I Have:<label>
+                  <select id ="experience" name ="experience" size="3" multiple>
+                  <option value="Played">Played</option>
+                  <option value="Coached">Coached</option>
+                  <option value="Bet on">Bet on</option>
+                  </select>
+                </div>
+                <div id = "forms2">
+                <label for ="preference"> I prefer...:<label>
+                  <input type = "radio" id ="amatuer" name ="preference" value ="Amatuer">
+                  <label for="Amatuer">Amatuer</label><br>
+                  <input type = "radio" id ="College" name ="preference" value ="College">
+                  <label for="College">College</label><br>
+                  <input type = "radio" id ="Pro" name ="preference" value ="Pro">
+                  <label for="Pro">Pro</label><br>
+
+            </div>
+          
 
 
   </body>
